@@ -3,4 +3,4 @@ flask==2.1.2
 keras==2.7.0
 librosa==0.9.1
 numpy==1.21.6
-tensorflow==2.7.0
+tensorflow==2.8.0
