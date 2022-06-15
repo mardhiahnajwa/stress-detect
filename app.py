@@ -1,9 +1,7 @@
 import os
 import random
 from flask import Flask, request, jsonify
-from flaskapi.stress_api import Stress_API
 from stress_api import Stress_API
-#conda list --export > requirements.txt
 app = Flask(__name__)
 
 @app.route('/', methods=['POST'])
